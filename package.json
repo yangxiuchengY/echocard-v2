@@ -20,7 +20,7 @@
   },
 "devDependencies": {
   "tailwindcss": "^4.0.0",
-  "@tailwindcss/postcss": "^4.0.0",   // <--- 必须加上这一行！
+  "@tailwindcss/postcss": "^4.0.0", 
   "postcss": "^8",
   "typescript": "^5",
   "@types/node": "^20",
