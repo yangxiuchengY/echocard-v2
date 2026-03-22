@@ -200,7 +200,7 @@ export default function EchoCardApp() {
                     </div>
 
                     <button onClick={handleDownload} className="mt-auto flex items-center justify-center gap-3 w-full py-4 bg-orange-500 hover:bg-orange-600 text-black font-black rounded-2xl transition-all shadow-xl active:scale-95">
-                        <Download size={18} /> 导出 PNG
+                        <Download size={18} /> 导出 图片
                     </button>
                 </div>
             </div>
