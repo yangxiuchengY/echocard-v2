@@ -1,7 +1,7 @@
-const config = {
+export default {
   plugins: {
-    "@tailwindcss/postcss": {},
+    '@tailwindcss/postcss': {}, // 注意这里，必须带上 @tailwindcss/ 前缀
   },
-};
+}
 
-export default config;
+// export default config;
