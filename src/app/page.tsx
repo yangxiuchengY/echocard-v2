@@ -35,14 +35,14 @@ export default function EchoCardApp() {
                 setTitle(data.title || "每日灵感");
                 setTheme(data.theme || 'light');
                 setBgImage(data.bgImage || null);
-                setSealText(data.sealText || "老王出品");
+                setSealText(data.sealText || "");
                 setSealShape(data.sealShape || 'square');
                 setBlurAmount(data.blurAmount ?? 12);
                 setSealFont(data.sealFont || 'serif');
                 setAspectRatio(data.aspectRatio || '3:4');
             } catch (e) { console.error("读取缓存失败"); }
         } else {
-            setText("在这里输入长文内容...\n本地存储已开启，刷新也不会丢失。");
+            setText("在这里输入长文内容...");
         }
         setIsLoaded(true);
     }, []);
